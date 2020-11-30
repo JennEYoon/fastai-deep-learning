@@ -1,2 +1,2 @@
 # fastai-app
-hosted web app, fastai 2020 class
+My hosted web app, from fastai 2020 class
