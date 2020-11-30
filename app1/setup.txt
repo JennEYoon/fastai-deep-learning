@@ -1,0 +1,5 @@
+# Setup notes for fastai app1, notebook2.  
+
+Need to use GPU for training.  Just using environment.yml does not work.  Packages assume GPU.  
+Try using alternative GPU service to Google.  
+After it is trained and app is developed, can serve up on CPU, MyBinder.org app.  
