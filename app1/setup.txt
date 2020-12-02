@@ -3,3 +3,10 @@
 Need to use GPU for training.  Just using environment.yml does not work.  Packages assume GPU.  
 Try using alternative GPU service to Google.  
 After it is trained and app is developed, can serve up on CPU, MyBinder.org app.  
+Can't load on my laptop CPU as is.  
+
+Docker image available -- may be better.  
+
+Need software "fastai" and content from book "fastbook"  
+C Windows - removed all conda environments except base, python = 3.6
+Nov 30, 2020. 
