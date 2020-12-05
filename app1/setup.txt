@@ -10,3 +10,8 @@ Docker image available -- may be better.
 Need software "fastai" and content from book "fastbook"  
 C Windows - removed all conda environments except base, python = 3.6
 Nov 30, 2020. 
+
+pip freeze > requirements.txt  allows you to save every library loaded with versions.  
+Use to create a complete environment.  
+May still need to load full fastbook each time.  
+Fastbook setup file many have more information.  
