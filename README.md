@@ -7,4 +7,11 @@ Don't remove repo - keep as testing repo.
 
 Smaller repo size, easier to start in binder.org  
 Colab, one place to look for fastai notebooks.  
-Add environment.yml file to root, folders for book content, images.  
+
+### Binder:
+Add environment.yml file to root - done.  
+fast20.yml  
+
+### Colab:  
+Find a way to load book, fastai setup, init on CPU/GPU.  
+PyTorch 1 version works with both CPU and GPU engines now.  
