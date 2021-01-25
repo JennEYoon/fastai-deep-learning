@@ -1,5 +1,7 @@
 # fastai-app
-My hosted web app, from fastai 2020 class
+My hosted web app, from fastai 2020 class  
+
+***To repurpose as blog github.io***  
 
 Jan 15, 2021 note.  
 Don't remove repo - keep as testing repo.  
