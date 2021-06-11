@@ -1,0 +1,112 @@
+﻿# CoLab -- Getting Set Up  
+8/21/2019  1:00 AM  
+Updated 11/10/2020 2:30pm  
+
+
+### Step 1: Accessing Colab  
+
+
+First of all you should sign in to your Google account if you are not signed in by default. You must do this step before opening Colab, otherwise the notebooks will not work. You can sign in here.
+
+
+https://colab.research.google.com/notebooks/welcome.ipynb#recent=true
+
+
+Next, head on to the Colab Welcome Page and click on ‘Github’. In the ‘Enter a GitHub URL or search by organization or user’ line enter **‘fastai’**. You will see all the course notebooks listed there. Click on the one you are interested in using.
+
+
+If you started a notebook directly from https://course.fast.ai/start_colab, 
+A script will ask you to log into your Google account and enter a one-time permission code.  
+[Demo this on Intro-to-Jypter notebook]
+
+
+***Selecting Runtime GPU***  
+You should see your notebook displayed now. Before running anything, you need to tell Colab that you are interested in using a **GPU**. You can do this by clicking on the ‘Runtime’ tab and selecting ‘Change runtime type’. A pop-up window will open up with a drop-down menu. Select ‘GPU’ from the menu and click ‘Save’.
+(Seems a lot faster with GPU than CPU or NONE in acceleration)
+
+
+### Step 2:  Configuring your notebook instance  
+
+
+Before you start using your notebook, you need to install the necessary packages. You can do this by **creating a code cell, and running**:
+
+
+[ New 2020 notebooks use -Uqq Unix command.]
+ 
+!pip install -Uqq fastbook
+import fastbook
+fastbook.setup_book()
+
+
+When you run the first cell, you will face a pop-up saying ‘Warning: This notebook was not authored by Google’; you should leave the default tick in the ‘Reset all runtimes before running’ checkbox and click on ‘Run Anyway’. 
+
+Run the next cell to import all supporting materials from fastbook. 
+
+from fastbook import * 
+
+
+### Step 3:  Saving your notebook  
+
+
+Top menu - Copy to Drive icon shows up when you are working in Colab.    
+File - Save - Copy to Github is also available.  
+
+
+### Step 4: Saving your data files  
+
+
+If you run a script which creates/ downloads files, the files will NOT persist after the allocated instance is shutdown. To save files, you need to permit your Colaboratory instance to read and write files to your Google Drive. Add the following code snippet **at the beginning of every notebook**.
+
+
+from google.colab import drive
+drive.mount('/content/gdrive', force_remount=True)
+root_dir = "/content/gdrive/My Drive/"
+base_dir = root_dir + 'fastai/'
+
+
+Now, you may access your Google Drive as a file system using standard python commands to both read and write files. Don’t forget to append base_dir before root path(s) in all notebooks. For example, in a notebook with path command, make the following changes:
+
+
+path = Path(base_dir + 'data/bears')
+dest = path/folder
+dest.mkdir(parents=True, exist_ok=True)
+
+
+### Step 5, Keep Colab connection alive 
+
+
+https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting
+
+
+Method 1:  while True:pass
+
+
+Method 2: 
+Set a javascript interval to click on the connect button every 60 seconds. Open developer-settings (in your web-browser) with Ctrl+Shift+I then click on console tab and type this on the console prompt. (for mac press Option+Command+I)
+
+
+Since the id of the connect button is now changed to "colab-connect-button", the following code can be used to keep clicking on the button.
+
+
+function ClickConnect(){
+    console.log("Clicked on connect button"); 
+    document.querySelector("colab-connect-button").click()
+}
+setInterval(ClickConnect,60000)
+
+
+If still, this doesn't work, then follow the steps given below:
+1. Right-click on the connect button (on the top-right side of the colab)
+2. Click on inspect
+3. Get the HTML id of the button and substitute in the following code 
+
+
+function ClickConnect(){
+    console.log("Clicked on connect button"); 
+    document.querySelector("Put ID here").click() // Change id here
+}
+setInterval(ClickConnect,60000) 
+
+
+In order to stop, call:
+stopClickConnect();
