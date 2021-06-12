@@ -1,14 +1,16 @@
-# to do, Random Forest part, chp 9 
-### June Meetup, finish up chp 9.  
+# Chp9 Tabular, Kaggle API, bluebook for bulldozers
 
 Edit path for 5 images to ../../images path.  
 
 Google Colab, find a way to point to .kaggle/kaggle.json folder from my mounted google drive.  
 Need to change fastai code to use different destination.  
 
+Alternatively, find an easy way to upload all data files, already downloaded and unzipped to my laptop.  
+"wget" learn.  
 
-Mounted user drive is "/content/drive/MyDrive/Colab Notebooks"
-*** My kaggle.json saved to Google Drive root. ***  
+Mounted user drive is /content/drive/MyDrive/Colab Notebooks"
+Mounted kaggle path '/content/drive/MyDrive/.kaggle/kaggle.json'
+Don't use '~' root for mounted gdrive.  
 
 import os
 with open('filename', 'rw') as f:  
