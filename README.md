@@ -5,7 +5,7 @@
  * app1 folder -- my testing notebooks, chp 1, 2, 4, 5  
  * fastai folder -- full fastai v2 library, for studying  
  * fastbook folder -- full copy of book notebooks, for studying  
-    - folder also had my working notebooks.  
+ * my-work folder -- my working notebooks for fastai 2020 version class.  
 
 Smaller repo size, easier to start in binder.org  
 Colab, one place to look for fastai notebooks.  
