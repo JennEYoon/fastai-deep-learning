@@ -1,4 +1,19 @@
 # to do, Random Forest part, chp 9 
 ### June Meetup, finish up chp 9.  
 
-copy images TO FOLDER, MISSING NB IMAGES.  
+Edit path for 5 images to ../../images path.  
+
+Google Colab, find a way to point to .kaggle/kaggle.json folder from my mounted google drive.  
+Need to change fastai code to use different destination.  
+
+
+Mounted user drive is "/content/drive/MyDrive/Colab Notebooks"
+
+import os
+with open('filename', 'rw') as f:  
+   os.dump(api_key, f)
+   
+api_key is kaggle token.  
+
+Colab -- no access to "/root/.kaggle/' folder.  Can't rename folder using . in folder name.  
+This option fails, so need a way to change fastai code path to /content/drive.  
