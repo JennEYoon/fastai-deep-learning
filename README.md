@@ -1,12 +1,8 @@
 # fastai-app
 
-June 11, 2021 note  
-Moved my fastbook working notebooks to this repo from deep-learning repo.  
-Combine with other fastai related folders, fastai software, fastbook copy 
-
-
-Jan 15, 2021 note.  
-Don't remove repo - keep as testing repo.  
+### fastai-app repo, June 11, 2021 note  
+Moved my fastbook and fastai 2020 class notebooks to this repo from "deep-learning" repo.  
+Combine with other fastai related folders, fastai v2 package, fastbook copy.  
 
  * app1 folder -- my testing notebooks, chp 1, 2, 4, 5  
  * fastai folder -- full fastai v2 library, for studying  
