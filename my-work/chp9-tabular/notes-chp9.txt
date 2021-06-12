@@ -8,6 +8,7 @@ Need to change fastai code to use different destination.
 
 
 Mounted user drive is "/content/drive/MyDrive/Colab Notebooks"
+*** My kaggle.json saved to Google Drive root. ***  
 
 import os
 with open('filename', 'rw') as f:  
