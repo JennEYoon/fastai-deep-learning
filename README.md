@@ -1,19 +1,21 @@
 # fastai-app
 
-June 11, 2021 note  
-Moved my fastbook working notebooks to this repo from deep-learning repo.  
-Combine with other fastai related folders, fastai software, fastbook copy 
-
-
-Jan 15, 2021 note.  
-Don't remove repo - keep as testing repo.  
+### fastai-app repo, June 11, 2021 note  
 
  * app1 folder -- my testing notebooks, chp 1, 2, 4, 5  
  * fastai folder -- full fastai v2 library, for studying  
  * fastbook folder -- full copy of book notebooks, for studying  
+ * my-work folder -- my working notebooks for fastai 2020 version class.  
 
 Smaller repo size, easier to start in binder.org  
 Colab, one place to look for fastai notebooks.  
+
+### Fastbook, fastai 2020 class:  
+Moved my ***fastbook*** and ***fastai 2020 class*** folders to this repo from ***deep-learning*** repo.  
+Combine with other fastai related folders, fastai v2 package.  Add nbdev later.  
+
+#### June 12, 2021 Update:  
+Part 2 youtube class videos are still not available.  In the mean time, watching 2019 version of Part 2 class on youtube is useful.  Fastai library explanation is helpful for understanding the v2 package, even thought the 2019 class videos refers to fastai v1 package.  Package v2 reuse v1's parts and function.  Parts in v2 are inside a wrapper or a module.  Code walkthrough videos for fastai v2 package is also helpful.  Fastbook nb 19 (book chapter 19) had helpful information on understanding fastai package.  Chapter is still at a high level, so need to dive into actual code.  See github for fastai/fastai repo.  
 
 ### Binder:
 Add environment.yml file to root - done.  

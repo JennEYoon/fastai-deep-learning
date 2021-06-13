@@ -1,4 +1,25 @@
-# to do, Random Forest part, chp 9 
-### June Meetup, finish up chp 9.  
+# Chp9 Tabular, Kaggle API, bluebook for bulldozers
 
-copy images TO FOLDER, MISSING NB IMAGES.  
+Edit path for 5 images to ../../images path.  
+
+Google Colab, find a way to point to /.kaggle/kaggle.json folder from my mounted google drive.  
+Need to change fastai code to use different destination.  
+
+Alternatively, find an easy way to upload all data files, already downloaded and unzipped on my laptop, 
+To Colab working drive.  Need a way to point NB to mounted google drive for data.
+"wget" learn.  
+
+Mounted user drive is /content/drive/MyDrive/Colab Notebooks"
+Kaggle path: /content/drive/MyDrive/Colab Notebooks/.kaggle/kaggle.json
+Another kaggle path: '/content/drive/MyDrive/.kaggle/kaggle.json'
+
+Don't use '~' root for mounted gdrive. This points to Linux bin. 
+
+import os
+with open('filename', 'rw') as f:  
+   os.dump(api_key, f)
+   
+api_key is kaggle token.  
+
+Colab -- no access to "/root/.kaggle/' folder.  Can't rename folder using . in folder name.  
+This option fails, so need a way to change fastai code path to /content/drive.  
