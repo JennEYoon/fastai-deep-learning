@@ -7,7 +7,7 @@ folder with up arrow, top-left menu
 
 * Add image
 
-	<a href="./Colab-Upload-to.jpg">
+	<img src="./Colab-upload.jpg" />
 
 Need to be zip or tar file.  One file uploaded per click. 
 
