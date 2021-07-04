@@ -1,4 +1,0 @@
-tar compressed files, images for pet breeds, moved to fastai2020 folder.  
-Too big to include in fastai-app, before untar (uncompress) individual images.  
-Label pets data, tar file, also moved.  
-Later, use Bash shell command to untar. 
