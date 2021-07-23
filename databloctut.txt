@@ -1,0 +1,6 @@
+Redo tutorial datablock, from fast.ai/docs.  
+
+import nbdev, install on Colab?  
+Colab only works with 1 notebook instance.  Close all others, copy to Google Drive or mount google drive.  
+Then run as GPU in Colab.  
+
