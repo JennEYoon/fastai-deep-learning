@@ -1,1 +1,5 @@
-combine fastpages blog repo with this.  Keep name of repo fastai-v2-app
+## 8/16 Monday  
+
+combine fastpages blog repo with this. 
+
+Keep name of repo fastai-v2-app
