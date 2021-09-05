@@ -1,3 +1,5 @@
 # gdrive notes  
 
-#### 9/4/2021 -- resnet nb, run still works on Colab.  
+#### 9/4/2021 -- resnet nb14 run, still works on Colab, after Google Drive Sync app update.  
+Local location moved to C:\python\repos.  
+
