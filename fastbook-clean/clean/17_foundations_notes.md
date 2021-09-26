@@ -7,3 +7,9 @@ copy image instead.  takes too long to type.
 
 \[A_row1 x B_col1, A_row1 x B_col2,  
   A_row2 x B_col1, A_row2 x B_col2 ]
+
+
+#### Einstein sum notation  
+Do examples to review.  
+
+
