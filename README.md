@@ -5,7 +5,7 @@ Github fastai/fastbook download was also refreshed.  Last commit to that repo wa
 
  * My study and work products are in "fastbook" folder.    
  * fastai v2 software is in "fastai" folder.   
- * apps folders have my exerperimentations.  
+ * apps folders have my experimentations.  
 
 For Fastai Class website: see https://www.fast.ai/   
 For source Github repo:  see https://github.com/fastai/fastbook  and  https://github.com/fastai/fastai  
