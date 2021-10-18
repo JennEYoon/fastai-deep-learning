@@ -1,7 +1,7 @@
 # fastai-dl-study repo
 
-This repo was reorganized on 10/18/2021.  Purpose was to consolidate study notes from "deep-larning" repo with fastai v2 library study and fastai based apps experimentation. 
-Github fastai/fastbook source was also refreshed.  Last commit to that repo was around end of May 2021. 
+This repo was reorganized on 10/18/2021.  My purpose was to consolidate my study notes from "deep-learning" repo with fastai v2 library study and fastai based apps.
+Github fastai/fastbook download was also refreshed.  Last commit to that repo was around the end of May 2021. 
 
  * My study and work products are in "fastbook" folder.    
  * fastai v2 software is in "fastai" folder.   
