@@ -1,0 +1,10 @@
+# Put my notes from chp19, fastai from scratch, here. 
+
+#### May - June 2021: 
+
+ * reading files, path, indexing through folder items. 
+   oswalk, glob, os, pathlib, getcwd (get current working directory), setcwd?
+
+ * work on image files loading into fastai
+   Almost done.  Test with libraries Pillow, Scikit-Image, Matplotlib, OpenCV. 
+

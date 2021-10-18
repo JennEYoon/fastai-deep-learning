@@ -1,0 +1,13 @@
+This should be solved in master now, by using l = load_learner(path=Path('./'), cpu=True).
+
+defaults.device = torch.device('cpu')
+l = load_learner(path=Path('./'))
+
+Error msg?  RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. 
+
+Instead everything is ok if I move model to CPU before exporting it:
+
+learn.model = learn.model.cpu()
+learn.export()
+Then I load export.pkl in my laptop (no need to specify defaults.device ):
+l = load_learner(path=Path('./'))

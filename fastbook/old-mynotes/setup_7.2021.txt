@@ -1,0 +1,15 @@
+July 4, 2021  
+Aug 3, 2021 update.  
+
+Created new "base" env on Windows OS, miniconda, Python v 3.9.  
+Latest stable PyTorch (CPU only) and TensorFlow (CPU and GPU auto detect)
+
+Fastbook -- needs Ubuntu to be installed.  Does NOT work on Windows OS.  
+Fastbook -- needs Python v 3.6 or 3.7.  Can't upgrade to v 3.9.  
+
+To upgrade Ubuntu to WSL2.  Clone "fastai20" env first, current one.  
+Copy .bashrc  
+Setup miniconda3
+Load libraries  
+Load fastbook contents, fastai library   
+

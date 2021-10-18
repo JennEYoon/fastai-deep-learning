@@ -1,0 +1,13 @@
+# Chp 1 notes  
+
+#### 8/15/2021 Monday, 8:30 am to 12:30 pm. 4 hrs.  
+Cat example:  Upload button, show uploaded image, seems to work but not sure.  
+learn.save() worked!  Saved to mounted gdrive. downloaded to local computer.  
+
+Logged out of Colab by mistake, but was saved to my mounted GDrive anyway!  How?  
+Control-Save was hit several times.  
+
+Segmentation -- not very accurate.  
+
+IMDB - need to use batchsize=32.  Colab runs out of memory after 30 minutes or so.  
+Not able to test prediction, movie sentiment.  
