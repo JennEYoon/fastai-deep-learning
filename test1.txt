@@ -1,2 +1,3 @@
 test github rename, local post
+test local commit after rename
 
