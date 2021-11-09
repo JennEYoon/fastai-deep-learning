@@ -1,0 +1,8 @@
+present chp 17 nn intro - me
+present chp 14 resnet moving average SGD, skip network diagram  
+presnet me - NVIDIA bias math diagran 
+doing projects, how to study fastai  
+ * Artish scipy talk 
+ * Redec YouTube interview  
+ * "how-to" folder, Hacktoberfest-2021  
+
