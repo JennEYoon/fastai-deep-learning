@@ -1,0 +1,3 @@
+name = "Jenny"
+attest name == "Jenny"
+print(attest)
