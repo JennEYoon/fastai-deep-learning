@@ -1,6 +1,0 @@
-Google Drive, big change to app syncing.  
-
-Repos moved back to "C:\python\repos"  Bashrc updated path alias.  
-~ 50GB in synced Google Drive.  
-
-
