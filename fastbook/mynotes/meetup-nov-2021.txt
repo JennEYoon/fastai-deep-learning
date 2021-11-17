@@ -1,8 +1,16 @@
+
+Peter present chp 13 CNN ( 6:55 pm to 7:20 pm)
+Me present (~ 7:23 pm to 8:00 pm)
+Dan was supposed to present, but he skipped.
+
 present chp 17 nn intro - me
-present chp 14 resnet moving average SGD, skip network diagram  
 presnet me - NVIDIA bias math diagran 
+present chp 14 resnet moving average SGD, skip network diagram  
+
 doing projects, how to study fastai  
  * Artish scipy talk 
  * Redec YouTube interview  
  * "how-to" folder, Hacktoberfest-2021  
+ * NVIDIA GYC Conference, currently going on.  
 
+I might stop going after Dec 2021.  Final one???  
