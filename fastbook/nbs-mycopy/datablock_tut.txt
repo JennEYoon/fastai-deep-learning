@@ -5,3 +5,6 @@ Colab only works with 1 notebook instance.  Close all others, copy to Google Dri
 Then run as GPU in Colab.  
 
 get code for installing library from notebook, yes code.  
+moved into working folder Nov 21, 2021  
+
+
