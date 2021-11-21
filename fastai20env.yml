@@ -1,4 +1,5 @@
 name: fastai20
+# Linux version, for WSL  
 channels:
   - pytorch
   - fastai
