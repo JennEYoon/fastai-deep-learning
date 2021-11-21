@@ -15,8 +15,7 @@ For source Github repo:  see https://github.com/fastai/fastbook  and  https://gi
 
  * app1 folder -- my testing notebooks, chp 1, 2, 4, 5  
  * fastai folder -- full fastai v2 library, for studying  
- * fastbook folder -- full copy of book notebooks, for studying  
- * my-work folder -- my working notebooks for fastai 2020 version class.  
+ * fastbook folder -- full copy of book notebooks, for studying   
 
 Smaller repo size, easier to start in binder.org  
 Colab, one place to look for fastai notebooks.  
