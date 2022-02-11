@@ -1,0 +1,11 @@
+ULMfit, model looks like a U.  
+Connections from original inputs to post CNN layers.  Segmentation requires regeneration of image in detail from low resolution after CNN filters. Need to combine with unfiltered image weights.  
+
+Segmentation problem is a harder image problem.  
+
+Siamese network, compare 2 images to see if the subjects match.  
+
+Model needs to be comples enough to capture the subtle points.  
+Start with a reasonable model, not too shpimple.  
+Data try to increase as much as possible, more labels, create ways to get labels, train on other kinds of labels, data augmentation in many ways, try mixup.  
+Then add regularization, or skip last 2 layers, add skiped layers of different kinds throughout the model.  But only if overfit.  First get to overfit. 
