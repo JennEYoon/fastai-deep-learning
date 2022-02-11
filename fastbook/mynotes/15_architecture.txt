@@ -1,3 +1,8 @@
+# Chp 15 reading notes  
+
+Feb 10, 2022 TH.  
+Skimmed, code needs detailed work over, while comparing to fastai and PyTorch libraries.  
+
 ULMfit, model looks like a U.  
 Connections from original inputs to post CNN layers.  Segmentation requires regeneration of image in detail from low resolution after CNN filters. Need to combine with unfiltered image weights.  
 
