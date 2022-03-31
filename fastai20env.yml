@@ -1,5 +1,6 @@
 name: fastai20
 # Linux version, for WSL  
+# Removed. WSL2 base includes fastai v2. 
 channels:
   - pytorch
   - fastai
