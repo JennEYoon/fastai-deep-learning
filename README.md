@@ -1,5 +1,9 @@
 # fastai-dl-study repo
 
+### Update, September 2022:  
+  * Started 2022 version of Fast.AI class.  
+  * Fastbook and fastai library folders updated with changes.  
+
 This repo was reorganized on 10/18/2021.  My purpose was to consolidate my study notes from "deep-learning" repo with fastai v2 library study and fastai based apps.
 Github fastai/fastbook download was also refreshed.  Last commit to that repo was around the end of May 2021. 
 
@@ -20,16 +24,10 @@ For source Github repo:  see https://github.com/fastai/fastbook  and  https://gi
 Smaller repo size, easier to start in binder.org  
 Colab, one place to look for fastai notebooks.  
 
-### Fastbook, fastai 2020 class:  
-Moved my ***fastbook*** and ***fastai 2020 class*** folders to this repo from ***deep-learning*** repo.  
-Combine with other fastai related folders, fastai v2 package.  Add nbdev later.  
-
-#### June 12, 2021 Update:  
-Part 2 youtube class videos are still not available.  In the mean time, watching 2019 version of Part 2 class on youtube is useful.  Fastai library explanation is helpful for understanding the v2 package, even thought the 2019 class videos refers to fastai v1 package.  Package v2 reuse v1's parts and function.  Parts in v2 are inside a wrapper or a module.  Code walkthrough videos for fastai v2 package is also helpful.  Fastbook nb 19 (book chapter 19) had helpful information on understanding fastai package.  Chapter is still at a high level, so need to dive into actual code.  See github for fastai/fastai repo.  
-
 ### Binder:
 Add environment.yml file to root - done.  
-**fastai20env.yml** - has fastai version 2, fastcore. Need nbdev to use scripts.  
+**fastai20env.yml** - has fastai version 2, fastcore. 
+  Need nbdev to use scripts, for converting notebooks to .py file, for documentation in notebook.  
 
 ### Colab:  
 PyTorch works with both CPU and GPU engines now.  
