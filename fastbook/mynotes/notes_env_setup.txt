@@ -1,0 +1,9 @@
+Main local repo location: ROG WSL2 repos2  
+
+Copy: Asus C:/python/repos -- sync via git pull  
+
+update conda env: dl37  
+Python 3.7, PyTorch 1.11.0, cuda 11.3, cudann 8.2.0 (GPU) 
+Fastai v 2.6.3  
+See env_dl37.yml file in "clean" folder, for list of installed packages  
+
