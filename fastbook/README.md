@@ -1,7 +1,7 @@
 This repo is a Clone of Jeremy Howard's fastbook repo.  
 This repo is for my own study of Fast.AI book in 2022.
 
-My practice notebooks are in "clean" folder.  
+My practice notebooks are in "clean" and "nbs-mycopy" folders.  
 My setup and environment files are also in "clean" folder.  
 
 Jennifer E Yoon
