@@ -12,4 +12,8 @@ copy image instead.  takes too long to type.
 #### Einstein sum notation  
 Do examples to review.  
 
+Write my notes here. Redo Part 2 of fastbook.  
+Review Course 2022 version on YouTube.  
+Fast.AI has NN course, do this too.  
+
 
