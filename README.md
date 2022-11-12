@@ -1,7 +1,10 @@
 # fastai-dl-study repo
 
+### Update Nov 11, 2022:  
+  * Fastai release stable diffusion notebooks as YouTube videos 9, 9a, 9b, 10. See 2022 Queensland class.  
+
 ### Update, September 2022:  
-  * Started 2022 version of Fast.AI class.  
+  * Started 2022 version of Fast.AI deep learning class.  
   * Fastbook and fastai library folders -- updated, July 2022.  
 
 This repo was reorganized on 10/18/2021.  My purpose was to consolidate my study notes from "deep-learning" repo with fastai v2 library study and fastai based apps.
