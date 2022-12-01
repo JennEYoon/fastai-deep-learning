@@ -1,7 +1,9 @@
 # fastai-dl-study repo
 
 ### Update Nov 11, 2022:  
-  * Fastai release stable diffusion notebooks as YouTube videos 9, 9a, 9b, 10. See 2022 Queensland class.  
+  * Fastai release stable diffusion notebooks as YouTube videos 9, 9a, 9b, 10. See "diffusion-22" folder.  
+  * Fastai has 2022 version of Part 1 and Part 2 classes from Queensland, Australia.  
+  * Note, Fastai never updated 2020 class Part 2 to go with the book published in August 2020.  
 
 ### Update, September 2022:  
   * Started 2022 version of Fast.AI deep learning class.  
