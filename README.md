@@ -1,5 +1,8 @@
 # fastai-dl-study repo
 
+### To Download, rest of Course 2022 Part 2  
+Available in April 2023.  
+
 ### Update Nov 11, 2022:  
   * Fastai release stable diffusion notebooks as YouTube videos 9, 9a, 9b, 10. See "diffusion-22" folder.  
   * Fastai has 2022 version of Part 1 and Part 2 classes from Queensland, Australia.  
